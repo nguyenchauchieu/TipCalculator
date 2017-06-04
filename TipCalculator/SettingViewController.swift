@@ -118,6 +118,9 @@ class SettingViewController: UIViewController {
         }
         
         userDefaults.synchronize()
+        let alert = UIAlertController(title: "Successful", message: "Save Settings Successfully.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func resetSetting(_ sender: Any) {

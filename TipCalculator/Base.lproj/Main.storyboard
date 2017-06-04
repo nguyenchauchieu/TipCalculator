@@ -296,7 +296,7 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="TipCalculator" id="3bt-kL-rBS">
-                        <barButtonItem key="rightBarButtonItem" title="Setting" id="f2n-WB-p2m">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="f2n-WB-p2m">
                             <connections>
                                 <segue destination="QS7-qZ-qX2" kind="show" id="AMh-vi-wPf"/>
                             </connections>
@@ -708,8 +708,8 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3U-RS-II9">
-                                <rect key="frame" x="64" y="536" width="85" height="30"/>
-                                <state key="normal" title="Save setting">
+                                <rect key="frame" x="64" y="536" width="94" height="30"/>
+                                <state key="normal" title="Save Settings">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -717,8 +717,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqm-G0-Zzf">
-                                <rect key="frame" x="220" y="536" width="91" height="30"/>
-                                <state key="normal" title="Reset setting">
+                                <rect key="frame" x="211" y="536" width="100" height="30"/>
+                                <state key="normal" title="Reset Settings">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>

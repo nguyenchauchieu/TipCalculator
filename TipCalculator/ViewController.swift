@@ -172,7 +172,7 @@ class ViewController: UIViewController{
     
     func calculateTip() -> Void {
         let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
+        formatter.numberStyle = .decimal
         formatter.maximumFractionDigits = 3
         
         switch serviceQuality {
