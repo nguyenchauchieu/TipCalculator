@@ -28,12 +28,13 @@ The following **additional** features are implemented:
     * Three stars Service rank is: 10% -> 100%
     * Four stars Service rank is: 15% -> 100%
     * Five stars Service rank is: 20% -> 100%
+- Converting between USD and VND with the fixed ratio is 1 USD = 22,000 VND
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/URnc9aR.gif' title='Nguyens Tip Calculator Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/VrujPxb.gif' title='Nguyens Tip Calculator Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -43,7 +44,7 @@ Describe any challenges encountered while building the app.
   + Design UI for App
   + Using AutoLayout (support iPhone 5s and iPhone 6, 6s, 7)
   + Synchronizing data between screens
-  + Gesture and image changing for separators
+  + Gesture and image changing for stars
 
 ## License
 

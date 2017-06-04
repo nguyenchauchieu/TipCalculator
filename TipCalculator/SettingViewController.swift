@@ -47,7 +47,7 @@ class SettingViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         oneStarStepper.value = Double(userDefaults.integer(forKey: "tip_percent_for_one_star"))
         oneStarTipPercentLabel.text = "\(Int(oneStarStepper.value))"
         
