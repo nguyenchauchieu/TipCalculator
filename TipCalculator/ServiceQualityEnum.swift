@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+enum ServiceQuality{
+    
+    case oneStar
+    case twoStar
+    case threeStar
+    case fourStar
+    case fiveStar
+    
+}

@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F77084BB1ED5E43700203B04 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77084BA1ED5E43700203B04 /* SettingViewController.swift */; };
+		F77084BF1ED5F44300203B04 /* SelectOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77084BD1ED5F44300203B04 /* SelectOption.swift */; };
 		F7B163381ED492ED00997815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B163371ED492ED00997815 /* AppDelegate.swift */; };
 		F7B1633A1ED492ED00997815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B163391ED492ED00997815 /* ViewController.swift */; };
 		F7B1633D1ED492ED00997815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B1633B1ED492ED00997815 /* Main.storyboard */; };
 		F7B1633F1ED492ED00997815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B1633E1ED492ED00997815 /* Assets.xcassets */; };
 		F7B163421ED492ED00997815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B163401ED492ED00997815 /* LaunchScreen.storyboard */; };
+		F7B2D5FE1ED75D66003680BB /* star1600_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B2D5FD1ED75D66003680BB /* star1600_filled.png */; };
+		F7B2D6021ED76BE0003680BB /* star1600_black.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B2D6011ED76BE0003680BB /* star1600_black.png */; };
+		F7CA02951ED9114A0044E490 /* ServiceQualityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA02941ED9114A0044E490 /* ServiceQualityEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F77084BA1ED5E43700203B04 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F77084BD1ED5F44300203B04 /* SelectOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectOption.swift; sourceTree = "<group>"; };
 		F7B163341ED492ED00997815 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B163371ED492ED00997815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7B163391ED492ED00997815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		F7B1633E1ED492ED00997815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B163411ED492ED00997815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B163431ED492ED00997815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B2D5FD1ED75D66003680BB /* star1600_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1600_filled.png; sourceTree = "<group>"; };
+		F7B2D6011ED76BE0003680BB /* star1600_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1600_black.png; sourceTree = "<group>"; };
+		F7CA02941ED9114A0044E490 /* ServiceQualityEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceQualityEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		F7B163361ED492ED00997815 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				F7B2D6011ED76BE0003680BB /* star1600_black.png */,
+				F7B2D5FD1ED75D66003680BB /* star1600_filled.png */,
+				F77084BD1ED5F44300203B04 /* SelectOption.swift */,
 				F7B163371ED492ED00997815 /* AppDelegate.swift */,
 				F7B163391ED492ED00997815 /* ViewController.swift */,
+				F7CA02941ED9114A0044E490 /* ServiceQualityEnum.swift */,
 				F7B1633B1ED492ED00997815 /* Main.storyboard */,
 				F7B1633E1ED492ED00997815 /* Assets.xcassets */,
 				F7B163401ED492ED00997815 /* LaunchScreen.storyboard */,
 				F7B163431ED492ED00997815 /* Info.plist */,
+				F77084BA1ED5E43700203B04 /* SettingViewController.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -125,8 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B163421ED492ED00997815 /* LaunchScreen.storyboard in Resources */,
+				F7B2D6021ED76BE0003680BB /* star1600_black.png in Resources */,
 				F7B1633F1ED492ED00997815 /* Assets.xcassets in Resources */,
 				F7B1633D1ED492ED00997815 /* Main.storyboard in Resources */,
+				F7B2D5FE1ED75D66003680BB /* star1600_filled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +156,9 @@
 			files = (
 				F7B1633A1ED492ED00997815 /* ViewController.swift in Sources */,
 				F7B163381ED492ED00997815 /* AppDelegate.swift in Sources */,
+				F7CA02951ED9114A0044E490 /* ServiceQualityEnum.swift in Sources */,
+				F77084BF1ED5F44300203B04 /* SelectOption.swift in Sources */,
+				F77084BB1ED5E43700203B04 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9KN8EQ6H2;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9KN8EQ6H2;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +324,7 @@
 				F7B163481ED492ED00997815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
