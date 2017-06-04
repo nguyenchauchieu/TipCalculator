@@ -10,23 +10,30 @@ Time spent: 24 hours spent in total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] Settings page to change the default tip percentage.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
-* [ ] Remembering the bill amount across app restarts
-* [ ] Usingcurrency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [ ] UI animations
+* [x] Remembering the bill amount across app restarts
+* [x] Usingcurrency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] Number of people and total money of each person
+- Number of people and total money of each person
+- Using services for tip percentage. For example: if you unsatisfied with employee ("One star"), tip percentage will be 2%. 
+    * One star rank is :2% -> 100%
+    * Two stars Service rank is: 5% -> 100%
+    * Three stars Service rank is: 10% -> 100%
+    * Four stars Service rank is: 15% -> 100%
+    * Five stars Service rank is: 20% -> 100%
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/lqbf8' title='Nguyens Tip Calculator Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/URnc9aR.gif' title='Nguyens Tip Calculator Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -34,7 +41,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 	Design UI for App
-	Using AutoLayout (multiple screens)
+	Using AutoLayout (support iPhone 5s and iPhone 6, 6s, 7)
 	Synchronize data between screens
 	Gesture and image changing for separators
 
