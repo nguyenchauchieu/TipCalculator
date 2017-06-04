@@ -40,10 +40,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-	+ Design UI for App
-	+ Using AutoLayout (support iPhone 5s and iPhone 6, 6s, 7)
-	+ Synchronize data between screens
-	+ Gesture and image changing for separators
+  + Design UI for App
+  + Using AutoLayout (support iPhone 5s and iPhone 6, 6s, 7)
+  + Synchronizing data between screens
+  + Gesture and image changing for separators
 
 ## License
 
